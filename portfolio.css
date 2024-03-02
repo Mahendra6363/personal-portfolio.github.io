@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#a{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+    color: orange;
+    box-shadow: 3px 5px 30px 5px orange;
+  }
+#Home{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(75, 104, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 2px 2px 30px 2px rgb(241, 238, 73);
+}
+button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background: rgb(27, 165, 34);
+}
+button:hover{
+    color: #000;
+    background-color: aqua;
+    box-shadow: 2px 2px 20px 2px aqua;
+}
+
+#About{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(75, 104, 109); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+#Education{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(75, 104, 109); 
+    font-style: oblique;
+    color: orange;
+    align-items: center;
+    justify-content: center; 
+}
+.edu{
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;  
+}
+#edu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.mca{
+    height: 200px;
+    width: 150px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(217, 227, 227);
+    text-decoration: rgb(75, 104, 109);
+    border-radius: 10px;
+    transition-duration: 2s;  
+}
+.mca:hover{
+    height: 250px;
+    width: 200px;
+    background:linear-gradient(rgb(110, 184, 218),rgb(67, 25, 158)) ;
+    transform: scaleX(1);
+    transform: scaleY(1);
+    color: white;
+}   
+#Skills{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(75, 104, 109);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+}
+.skill{
+    color: orange;
+    text-align: center;
+    font-size: xx-large;
+    background: rgb(75, 104, 109);;
+}
+.s1{
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    color: rgb(175, 190, 203);
+    background: linear-gradient(blue 20%, violet) ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1:hover{
+    color: black;
+    background: linear-gradient(orange,yellow,aqua);
+    height: 250px;
+    width: 250px;
+    transform: scaleX(1);
+    transform: scaleY(1);
+    font-size: 50px;
+    transform: rotate(5deg);
+}
+#projects{
+    text-align: center;
+    font-size: xx-large;
+    color: coral;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(75, 104, 109);
+}
+.prj{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+}
+.project1{
+    margin: auto;
+    height: 420px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px black;
+}
+#git{
+    padding: 10px;
+    font-size: medium;
+}
+#refer{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(41, 49, 51); 
+}
+#form{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
